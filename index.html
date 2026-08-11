@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100813">
+  <title>Для моєї Валюшки ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stars"></div>
+  <div id="hearts"></div>
+  <div class="magic-castle"></div>
+  <div class="candle-row"><i class="candle"></i><i class="candle"></i><i class="candle"></i><i class="candle"></i></div>
+  <div class="wand-cursor"></div>
+  <div class="grain"></div>
+  <div class="progress"><span id="progressBar"></span></div>
+
+  <div class="slide-arrows"><button id="prevSlide" type="button" aria-label="Попередній слайд">‹</button><button id="nextSlide" type="button" aria-label="Наступний слайд">›</button></div><div class="slide-dots" id="slideDots"></div><div class="slide-count" id="slideCount">1 / 9</div>
+  <main>
+    <section class="scene hero active" id="scene-1">
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+      <div class="hero-content">
+        <div class="hogwarts-seal">Hogwarts · 9 років магії · ∞</div>
+        <div class="eyebrow">для найдорожчої людини</div>
+        <div class="tiny-date">01.09.2017 — ∞</div>
+        <h1 class="magic-title">Для моєї<br><span>Валюшки</span> <i>♥</i></h1>
+        <p class="lead">Я хотів подарувати тобі щось, що не загубиться серед звичайних подарунків.</p>
+        <p class="hero-note">Тому зробив маленький шматочок нашої історії.</p>
+        <button class="btn btn-primary" data-next="scene-2">Відкрити ❤️</button>
+      </div>
+      <div class="scroll-hint">наша історія починається тут <b>↓</b></div>
+    </section>
+
+    <section class="scene" id="scene-2">
+      <div class="section-inner split">
+        <div class="photo-frame tilt-left reveal">
+          <div class="photo-glow"></div>
+          <img src="images/cover.jpg" alt="Наше фото">
+          <div class="photo-placeholder">Твоє фото<br><small>cover.jpg</small></div>
+          <span class="photo-tag">Красуня ❤️</span>
+        </div>
+        <div class="copy reveal">
+          <div class="hogwarts-seal">Карта мародерів · відкрито для Валюшки</div>
+          <div class="eyebrow">сьогодні для мене особливий день</div>
+          <h2>Бо сьогодні<br><span>одразу два свята.</span></h2>
+          <p>День народження дівчини, яку я кохаю найбільше.</p>
+          <p>І наша історія, яка почалася <strong>1 вересня 2017 року</strong>, а 4 вересня 2022 року стала ще одним словом — <strong>сім'я</strong>.</p>
+          <div class="mini-stats">
+            <div><b>9</b><span>років разом</span></div>
+            <div><b>4</b><span>роки шлюбу</span></div>
+            <div><b>∞</b><span>попереду</span></div>
+          </div>
+          <button class="btn" data-next="scene-3">Поглянемо назад →</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-3">
+      <div class="section-inner centered">
+        <div class="hogwarts-seal">Хроніки нашої магії</div>
+        <div class="eyebrow">кілька дат, за якими стоїть ціле життя</div>
+        <h2>Наша історія<br><span>не поміщається в дати.</span></h2>
+        <div class="timeline timeline-photo">
+          <article class="timeline-card">
+            <div class="timeline-photo-frame"><img src="images/history-start.jpg" alt="Наш початок"><span class="history-placeholder">Додай фото<br><small>history-start.jpg</small></span></div>
+            <div class="timeline-copy"><span class="timeline-number">01</span><b>01.09.2017</b><h3>Початок нашої історії</h3><p>День, з якого почалося наше «ми».</p></div>
+          </article>
+          <article class="timeline-card">
+            <div class="timeline-photo-frame"><img src="images/history-wedding.jpg" alt="Наше весілля"><span class="history-placeholder">Додай фото<br><small>history-wedding.jpg</small></span></div>
+            <div class="timeline-copy"><span class="timeline-number">02</span><b>04.09.2022</b><h3>День нашого весілля</h3><p>День, коли ми стали чоловіком і дружиною.</p></div>
+          </article>
+          <article class="timeline-card">
+            <div class="timeline-photo-frame"><img src="images/history-now.jpg" alt="Ми зараз"><span class="history-placeholder">Додай фото<br><small>history-now.jpg</small></span></div>
+            <div class="timeline-copy"><span class="timeline-number">03</span><b>2026</b><h3>Наше сьогодні</h3><p>9 років кохання. 4 роки шлюбу. І ще стільки всього попереду.</p></div>
+          </article>
+        </div>
+        <button class="btn" data-next="scene-4">А тепер — те, що не скажеш цифрами 💌</button>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-4">
+      <div class="section-inner letter-scene">
+        <div class="hogwarts-seal">Лист із совиної пошти</div>
+        <div class="eyebrow">те, що я хочу сказати тобі</div>
+        <h2>Кохана Валюшка... <span>♥</span></h2>
+        <div class="paper">
+          <div class="paper-corner"></div>
+          <div class="letter" id="letter"></div>
+          <div class="typing-cursor" id="typingCursor"></div>
+        </div>
+        <button class="btn hidden" id="letterNext" data-next="scene-5">Є ще дещо →</button>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-5">
+      <div class="section-inner centered">
+        <div class="hogwarts-seal">Чарівна кімната · рівень любові: 9/9</div>
+        <div class="eyebrow">9 років — 9 причин</div>
+        <h2>Натискай на серце.<br><span>По одній причині.</span></h2>
+        <div class="reason-card" id="reasonBox">Я почну з першої… ❤️</div>
+        <button class="heart-btn" id="reasonButton" aria-label="Наступна причина">♥</button>
+        <div class="reason-count"><span id="reasonNumber">0</span><em>/</em>9</div>
+        <div class="dots" id="reasonDots"></div>
+        <button class="btn hidden" id="reasonsNext" data-next="scene-6">Показати наші моменти 📸</button>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-6">
+      <div class="section-inner centered">
+        <div class="hogwarts-seal">Альбом спогадів · приватна колекція</div>
+        <div class="eyebrow">фото, які не потребують пояснень</div>
+        <h2>Наші моменти <span>📸</span></h2>
+        <div class="gallery">
+          <figure><img src="images/photo1.jpg" alt="Наш момент"><figcaption>Наш момент ❤️</figcaption></figure>
+          <figure><img src="images/photo2.jpg" alt="Наш момент"><figcaption>Ще один спогад</figcaption></figure>
+          <figure><img src="images/photo3.jpg" alt="Наш момент"><figcaption>Там, де ми разом</figcaption></figure>
+          <figure><img src="images/photo4.jpg" alt="Наш момент"><figcaption>Твоя усмішка</figcaption></figure>
+          <figure><img src="images/photo5.jpg" alt="Наш момент"><figcaption>Наше життя</figcaption></figure>
+          <figure><img src="images/photo6.jpg" alt="Наш момент"><figcaption>І це лише частина</figcaption></figure>
+        </div>
+        <p class="gallery-tip">Натисни на фото, щоб відкрити його великим.</p>
+        <button class="btn" data-next="scene-7">А тепер — три подарунки 🎁</button>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-7">
+      <div class="section-inner centered">
+        <div class="hogwarts-seal">Три зачаровані скриньки</div>
+        <div class="eyebrow">маленька гра для тебе</div>
+        <h2>Три коробочки.<br><span>Три маленькі сюрпризи.</span></h2>
+        <p class="subtle">Тільки одна з них нібито містить справжній подарунок… 😉</p>
+        <div class="gifts">
+          <button class="gift" data-gift="1"><span class="gift-ribbon"></span><span class="box">🎁</span><b>№1</b><small>Спогади</small></button>
+          <button class="gift" data-gift="2"><span class="gift-ribbon"></span><span class="box">🎁</span><b>№2</b><small>Моє серце</small></button>
+          <button class="gift" data-gift="3"><span class="gift-ribbon"></span><span class="box">🎁</span><b>№3</b><small>Відкрити останнім ❤️</small></button>
+        </div>
+        <p class="opened-count"><span id="openedCount">0</span> / 3 відкрито</p>
+        <button class="btn hidden" id="giftsNext" data-next="scene-8">Усі відкриті ❤️</button>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-8">
+      <div class="section-inner centered">
+        <div class="hogwarts-seal">Зала великої любові</div>
+        <div class="eyebrow">четверта коробочка була б зайвою</div>
+        <h2>Бо найцінніше<br><span>вже зі мною.</span></h2>
+        <div class="big-heart" id="bigHeart">♥</div>
+        <p class="subtle">Моє серце вже давно знає, кому воно належить.</p>
+        <button class="btn" data-next="scene-9">І ще один маленький лист… ✉️</button>
+      </div>
+    </section>
+<section class="scene finale" id="scene-9">
+      <div class="final-rays"></div>
+      <div class="section-inner centered">
+        <div class="final-photo"><img src="images/final.jpg" alt="Наше найкраще фото"><div class="photo-placeholder">Твоє найкраще фото<br><small>final.jpg</small></div></div>
+        <div class="hogwarts-seal">Совина пошта · доставка назавжди</div>
+        <div class="eyebrow">для тебе, кохана</div>
+        <h2>З Днем Народження,<br><span>моя Валюшка ♥</span></h2>
+        <div class="final-divider">✦</div>
+        <p>І з нашими <strong>9 роками кохання</strong><br>та <strong>4 роками щасливого шлюбу.</strong></p>
+        <p>Дякую тобі за кожен день.<br>За все, через що ми пройшли разом.<br>За сміх, обійми, підтримку й наші маленькі моменти.</p>
+        <p class="final-love">Найкращий подарунок, який життя подарувало мені, — це ти.</p>
+        <h3>Я люблю тебе. ♥</h3>
+        <div class="signature">Твій Андрій</div>
+        <div class="infinity">9 → ∞</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="gift-modal" id="giftModal"><div class="modal-card"><button class="close" id="closeModal">×</button><div id="giftContent"></div></div></div>
+  <div class="lightbox" id="lightbox"><button class="close" id="closeLightbox">×</button><img id="lightboxImage" src="" alt=""></div>
+  <audio id="music" loop preload="auto"><source src="music/song.mp3" type="audio/mpeg"></audio>
+  <button class="music-toggle" id="musicToggle" title="Музика">♫</button>
+  <script src="script.js"></script>
+</body>
+</html>
